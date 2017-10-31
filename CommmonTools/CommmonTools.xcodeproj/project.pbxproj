@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECB48F241FA4191F00C6F7D3 /* CommmonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB48F231FA4191F00C6F7D3 /* CommmonTools.m */; };
+		ECA66F5E1FA87C6A0024D9F9 /* NSString+CTString.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F5D1FA87C6A0024D9F9 /* NSString+CTString.m */; };
+		ECA66F641FA87D550024D9F9 /* CTMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F631FA87D550024D9F9 /* CTMethods.m */; };
+		ECA66F6A1FA87E010024D9F9 /* UIView+CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F691FA87E010024D9F9 /* UIView+CTView.m */; };
+		ECA66F6D1FA87E2A0024D9F9 /* NSDictionary+CTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F6C1FA87E2A0024D9F9 /* NSDictionary+CTDictionary.m */; };
+		ECA66F701FA87E4D0024D9F9 /* NSArray+CTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F6F1FA87E4D0024D9F9 /* NSArray+CTArray.m */; };
 		ECB48F251FA4191F00C6F7D3 /* CommmonTools.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ECB48F221FA4191F00C6F7D3 /* CommmonTools.h */; };
-		ECB48F2D1FA419E900C6F7D3 /* UIView+FrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB48F2C1FA419E900C6F7D3 /* UIView+FrameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +29,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		ECA66F5C1FA87C6A0024D9F9 /* NSString+CTString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CTString.h"; sourceTree = "<group>"; };
+		ECA66F5D1FA87C6A0024D9F9 /* NSString+CTString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CTString.m"; sourceTree = "<group>"; };
+		ECA66F621FA87D550024D9F9 /* CTMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMethods.h; sourceTree = "<group>"; };
+		ECA66F631FA87D550024D9F9 /* CTMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMethods.m; sourceTree = "<group>"; };
+		ECA66F651FA87D6A0024D9F9 /* CTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDefines.h; sourceTree = "<group>"; };
+		ECA66F681FA87E010024D9F9 /* UIView+CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CTView.h"; sourceTree = "<group>"; };
+		ECA66F691FA87E010024D9F9 /* UIView+CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTView.m"; sourceTree = "<group>"; };
+		ECA66F6B1FA87E2A0024D9F9 /* NSDictionary+CTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CTDictionary.h"; sourceTree = "<group>"; };
+		ECA66F6C1FA87E2A0024D9F9 /* NSDictionary+CTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CTDictionary.m"; sourceTree = "<group>"; };
+		ECA66F6E1FA87E4D0024D9F9 /* NSArray+CTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CTArray.h"; sourceTree = "<group>"; };
+		ECA66F6F1FA87E4D0024D9F9 /* NSArray+CTArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CTArray.m"; sourceTree = "<group>"; };
 		ECB48F1F1FA4191F00C6F7D3 /* libCommmonTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommmonTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB48F221FA4191F00C6F7D3 /* CommmonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommmonTools.h; sourceTree = "<group>"; };
-		ECB48F231FA4191F00C6F7D3 /* CommmonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommmonTools.m; sourceTree = "<group>"; };
-		ECB48F2B1FA419E900C6F7D3 /* UIView+FrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameView.h"; sourceTree = "<group>"; };
-		ECB48F2C1FA419E900C6F7D3 /* UIView+FrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +75,17 @@
 			isa = PBXGroup;
 			children = (
 				ECB48F221FA4191F00C6F7D3 /* CommmonTools.h */,
-				ECB48F231FA4191F00C6F7D3 /* CommmonTools.m */,
-				ECB48F2B1FA419E900C6F7D3 /* UIView+FrameView.h */,
-				ECB48F2C1FA419E900C6F7D3 /* UIView+FrameView.m */,
+				ECA66F651FA87D6A0024D9F9 /* CTDefines.h */,
+				ECA66F621FA87D550024D9F9 /* CTMethods.h */,
+				ECA66F631FA87D550024D9F9 /* CTMethods.m */,
+				ECA66F681FA87E010024D9F9 /* UIView+CTView.h */,
+				ECA66F691FA87E010024D9F9 /* UIView+CTView.m */,
+				ECA66F6B1FA87E2A0024D9F9 /* NSDictionary+CTDictionary.h */,
+				ECA66F6C1FA87E2A0024D9F9 /* NSDictionary+CTDictionary.m */,
+				ECA66F6E1FA87E4D0024D9F9 /* NSArray+CTArray.h */,
+				ECA66F6F1FA87E4D0024D9F9 /* NSArray+CTArray.m */,
+				ECA66F5C1FA87C6A0024D9F9 /* NSString+CTString.h */,
+				ECA66F5D1FA87C6A0024D9F9 /* NSString+CTString.m */,
 			);
 			path = CommmonTools;
 			sourceTree = "<group>";
@@ -129,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB48F241FA4191F00C6F7D3 /* CommmonTools.m in Sources */,
-				ECB48F2D1FA419E900C6F7D3 /* UIView+FrameView.m in Sources */,
+				ECA66F6A1FA87E010024D9F9 /* UIView+CTView.m in Sources */,
+				ECA66F641FA87D550024D9F9 /* CTMethods.m in Sources */,
+				ECA66F701FA87E4D0024D9F9 /* NSArray+CTArray.m in Sources */,
+				ECA66F5E1FA87C6A0024D9F9 /* NSString+CTString.m in Sources */,
+				ECA66F6D1FA87E2A0024D9F9 /* NSDictionary+CTDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +286,7 @@
 				ECB48F2A1FA4191F00C6F7D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

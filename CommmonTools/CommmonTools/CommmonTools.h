@@ -7,18 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CTDefines.h"
+#import "CTMethods.h"
 
-@interface CommmonTools : NSObject
-
-/*
- ---------------------------
- 丨        title           丨
- 丨       message          丨
- 丨                        丨
- 丨leftTitle    rightTtitle丨
- 丨                        丨
- ---------------------------
- */
-/** 通用弹窗 */
-+(void)tipsWithTitle:(NSString *)title message:(NSString *)message leftTitle:(NSString *)leftTitle rightTitle:(NSString *)rightTitle leftBlock:(void(^)())leftBlock rightBlock:(void(^)())rightBlock;
-@end
