@@ -9,4 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "CTDefines.h"
 #import "CTMethods.h"
-
+#import "UIView+CTView.h"
+#import "NSDictionary+CTDictionary.h"
+#import "NSArray+CTArray.h"
+#import "NSString+CTString.h"
