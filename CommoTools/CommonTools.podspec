@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CommonTools"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Common tools for iOS develop."
 
   # This description is used to generate tags and improve search results.
@@ -87,9 +87,11 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 # LZTool/*.{h,m}
-  s.source_files  = "CommonTools/CommonTools/*"
-  s.exclude_files = "CommonTools/CommonTools"
-
+# s.source_files  = "CommonTools/*"
+  # s.source_files  = "CommonTools/CommonTools/*"
+  # s.exclude_files = "CommonTools/CommonTools"
+  s.source_files  = "Classes", "CommonTools/Classes/*.{h,m}"
+  s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
 
