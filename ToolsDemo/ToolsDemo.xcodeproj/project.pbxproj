@@ -15,11 +15,11 @@
 		ECA66F291FA873600024D9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA66F271FA873600024D9F9 /* LaunchScreen.storyboard */; };
 		ECA66F341FA873600024D9F9 /* ToolsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F331FA873600024D9F9 /* ToolsDemoTests.m */; };
 		ECA66F3F1FA873600024D9F9 /* ToolsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F3E1FA873600024D9F9 /* ToolsDemoUITests.m */; };
-		ECA66F7E1FA88D960024D9F9 /* CTMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F741FA88D960024D9F9 /* CTMethods.m */; };
-		ECA66F7F1FA88D960024D9F9 /* UIView+CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F761FA88D960024D9F9 /* UIView+CTView.m */; };
-		ECA66F801FA88D960024D9F9 /* NSDictionary+CTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F781FA88D960024D9F9 /* NSDictionary+CTDictionary.m */; };
-		ECA66F811FA88D960024D9F9 /* NSArray+CTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F7A1FA88D960024D9F9 /* NSArray+CTArray.m */; };
-		ECA66F821FA88D960024D9F9 /* NSString+CTString.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA66F7C1FA88D960024D9F9 /* NSString+CTString.m */; };
+		ECE0D5EB1FA96CAC0075C425 /* CTMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0D5E11FA96CAC0075C425 /* CTMethods.m */; };
+		ECE0D5EC1FA96CAC0075C425 /* NSArray+CTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0D5E31FA96CAC0075C425 /* NSArray+CTArray.m */; };
+		ECE0D5ED1FA96CAC0075C425 /* NSDictionary+CTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0D5E51FA96CAC0075C425 /* NSDictionary+CTDictionary.m */; };
+		ECE0D5EE1FA96CAC0075C425 /* NSString+CTString.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0D5E71FA96CAC0075C425 /* NSString+CTString.m */; };
+		ECE0D5EF1FA96CAC0075C425 /* UIView+CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0D5E91FA96CAC0075C425 /* UIView+CTView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,18 +56,18 @@
 		ECA66F3A1FA873600024D9F9 /* ToolsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA66F3E1FA873600024D9F9 /* ToolsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolsDemoUITests.m; sourceTree = "<group>"; };
 		ECA66F401FA873600024D9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECA66F711FA88D960024D9F9 /* CommmonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommmonTools.h; sourceTree = "<group>"; };
-		ECA66F721FA88D960024D9F9 /* CTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDefines.h; sourceTree = "<group>"; };
-		ECA66F731FA88D960024D9F9 /* CTMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMethods.h; sourceTree = "<group>"; };
-		ECA66F741FA88D960024D9F9 /* CTMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMethods.m; sourceTree = "<group>"; };
-		ECA66F751FA88D960024D9F9 /* UIView+CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CTView.h"; sourceTree = "<group>"; };
-		ECA66F761FA88D960024D9F9 /* UIView+CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTView.m"; sourceTree = "<group>"; };
-		ECA66F771FA88D960024D9F9 /* NSDictionary+CTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CTDictionary.h"; sourceTree = "<group>"; };
-		ECA66F781FA88D960024D9F9 /* NSDictionary+CTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CTDictionary.m"; sourceTree = "<group>"; };
-		ECA66F791FA88D960024D9F9 /* NSArray+CTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CTArray.h"; sourceTree = "<group>"; };
-		ECA66F7A1FA88D960024D9F9 /* NSArray+CTArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CTArray.m"; sourceTree = "<group>"; };
-		ECA66F7B1FA88D960024D9F9 /* NSString+CTString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CTString.h"; sourceTree = "<group>"; };
-		ECA66F7C1FA88D960024D9F9 /* NSString+CTString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CTString.m"; sourceTree = "<group>"; };
+		ECE0D5DE1FA96CAC0075C425 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		ECE0D5DF1FA96CAC0075C425 /* CTDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDefines.h; sourceTree = "<group>"; };
+		ECE0D5E01FA96CAC0075C425 /* CTMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMethods.h; sourceTree = "<group>"; };
+		ECE0D5E11FA96CAC0075C425 /* CTMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMethods.m; sourceTree = "<group>"; };
+		ECE0D5E21FA96CAC0075C425 /* NSArray+CTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CTArray.h"; sourceTree = "<group>"; };
+		ECE0D5E31FA96CAC0075C425 /* NSArray+CTArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CTArray.m"; sourceTree = "<group>"; };
+		ECE0D5E41FA96CAC0075C425 /* NSDictionary+CTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CTDictionary.h"; sourceTree = "<group>"; };
+		ECE0D5E51FA96CAC0075C425 /* NSDictionary+CTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CTDictionary.m"; sourceTree = "<group>"; };
+		ECE0D5E61FA96CAC0075C425 /* NSString+CTString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CTString.h"; sourceTree = "<group>"; };
+		ECE0D5E71FA96CAC0075C425 /* NSString+CTString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CTString.m"; sourceTree = "<group>"; };
+		ECE0D5E81FA96CAC0075C425 /* UIView+CTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CTView.h"; sourceTree = "<group>"; };
+		ECE0D5E91FA96CAC0075C425 /* UIView+CTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CTView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 		ECA66F181FA873600024D9F9 /* ToolsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ECA66F7D1FA88D960024D9F9 /* CommmonTools */,
+				ECE0D5EA1FA96CAC0075C425 /* CommonTools */,
 				ECA66F1C1FA873600024D9F9 /* AppDelegate.h */,
 				ECA66F1D1FA873600024D9F9 /* AppDelegate.m */,
 				ECA66F1F1FA873600024D9F9 /* ViewController.h */,
@@ -158,24 +158,24 @@
 			path = ToolsDemoUITests;
 			sourceTree = "<group>";
 		};
-		ECA66F7D1FA88D960024D9F9 /* CommmonTools */ = {
+		ECE0D5EA1FA96CAC0075C425 /* CommonTools */ = {
 			isa = PBXGroup;
 			children = (
-				ECA66F711FA88D960024D9F9 /* CommmonTools.h */,
-				ECA66F721FA88D960024D9F9 /* CTDefines.h */,
-				ECA66F731FA88D960024D9F9 /* CTMethods.h */,
-				ECA66F741FA88D960024D9F9 /* CTMethods.m */,
-				ECA66F751FA88D960024D9F9 /* UIView+CTView.h */,
-				ECA66F761FA88D960024D9F9 /* UIView+CTView.m */,
-				ECA66F771FA88D960024D9F9 /* NSDictionary+CTDictionary.h */,
-				ECA66F781FA88D960024D9F9 /* NSDictionary+CTDictionary.m */,
-				ECA66F791FA88D960024D9F9 /* NSArray+CTArray.h */,
-				ECA66F7A1FA88D960024D9F9 /* NSArray+CTArray.m */,
-				ECA66F7B1FA88D960024D9F9 /* NSString+CTString.h */,
-				ECA66F7C1FA88D960024D9F9 /* NSString+CTString.m */,
+				ECE0D5DE1FA96CAC0075C425 /* CommonTools.h */,
+				ECE0D5DF1FA96CAC0075C425 /* CTDefines.h */,
+				ECE0D5E01FA96CAC0075C425 /* CTMethods.h */,
+				ECE0D5E11FA96CAC0075C425 /* CTMethods.m */,
+				ECE0D5E21FA96CAC0075C425 /* NSArray+CTArray.h */,
+				ECE0D5E31FA96CAC0075C425 /* NSArray+CTArray.m */,
+				ECE0D5E41FA96CAC0075C425 /* NSDictionary+CTDictionary.h */,
+				ECE0D5E51FA96CAC0075C425 /* NSDictionary+CTDictionary.m */,
+				ECE0D5E61FA96CAC0075C425 /* NSString+CTString.h */,
+				ECE0D5E71FA96CAC0075C425 /* NSString+CTString.m */,
+				ECE0D5E81FA96CAC0075C425 /* UIView+CTView.h */,
+				ECE0D5E91FA96CAC0075C425 /* UIView+CTView.m */,
 			);
-			name = CommmonTools;
-			path = ../../CommmonTools/CommmonTools;
+			name = CommonTools;
+			path = ../../CommonTools/CommonTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,14 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE0D5EF1FA96CAC0075C425 /* UIView+CTView.m in Sources */,
 				ECA66F211FA873600024D9F9 /* ViewController.m in Sources */,
-				ECA66F7E1FA88D960024D9F9 /* CTMethods.m in Sources */,
-				ECA66F7F1FA88D960024D9F9 /* UIView+CTView.m in Sources */,
-				ECA66F811FA88D960024D9F9 /* NSArray+CTArray.m in Sources */,
+				ECE0D5EB1FA96CAC0075C425 /* CTMethods.m in Sources */,
+				ECE0D5EC1FA96CAC0075C425 /* NSArray+CTArray.m in Sources */,
+				ECE0D5EE1FA96CAC0075C425 /* NSString+CTString.m in Sources */,
 				ECA66F1E1FA873600024D9F9 /* AppDelegate.m in Sources */,
 				ECA66F1B1FA873600024D9F9 /* main.m in Sources */,
-				ECA66F801FA88D960024D9F9 /* NSDictionary+CTDictionary.m in Sources */,
-				ECA66F821FA88D960024D9F9 /* NSString+CTString.m in Sources */,
+				ECE0D5ED1FA96CAC0075C425 /* NSDictionary+CTDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

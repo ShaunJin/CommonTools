@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CommmonTools.xcscheme</key>
+		<key>CommonTools.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>ECB48F1E1FA4191F00C6F7D3</key>
+		<key>ECE0D5C01FA96C350075C425</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECB48F1E1FA4191F00C6F7D3"
-               BuildableName = "libCommmonTools.a"
-               BlueprintName = "CommmonTools"
-               ReferencedContainer = "container:CommmonTools.xcodeproj">
+               BlueprintIdentifier = "ECE0D5C01FA96C350075C425"
+               BuildableName = "libCommonTools.a"
+               BlueprintName = "CommonTools"
+               ReferencedContainer = "container:CommonTools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECB48F1E1FA4191F00C6F7D3"
-            BuildableName = "libCommmonTools.a"
-            BlueprintName = "CommmonTools"
-            ReferencedContainer = "container:CommmonTools.xcodeproj">
+            BlueprintIdentifier = "ECE0D5C01FA96C350075C425"
+            BuildableName = "libCommonTools.a"
+            BlueprintName = "CommonTools"
+            ReferencedContainer = "container:CommonTools.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECB48F1E1FA4191F00C6F7D3"
-            BuildableName = "libCommmonTools.a"
-            BlueprintName = "CommmonTools"
-            ReferencedContainer = "container:CommmonTools.xcodeproj">
+            BlueprintIdentifier = "ECE0D5C01FA96C350075C425"
+            BuildableName = "libCommonTools.a"
+            BlueprintName = "CommonTools"
+            ReferencedContainer = "container:CommonTools.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

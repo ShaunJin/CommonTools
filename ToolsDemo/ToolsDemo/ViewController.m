@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CommmonTools.h"
+#import "CommonTools.h"
 @interface ViewController ()
 
 @end

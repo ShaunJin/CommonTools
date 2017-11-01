@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ToolsDemo/ToolsDemo.xcodeproj">
+      location = "group:CommonTools/CommonTools.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:CommmonTools/CommmonTools.xcodeproj">
+      location = "group:ToolsDemo/ToolsDemo.xcodeproj">
    </FileRef>
 </Workspace>
