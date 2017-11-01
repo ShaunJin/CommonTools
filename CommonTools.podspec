@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CommonTools"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "Common tools for iOS develop."
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
 # s.source_files  = "CommonTools/*"
   # s.source_files  = "CommonTools/CommonTools/*"
   # s.exclude_files = "CommonTools/CommonTools"
-  s.source_files  = "Classes", "CommonTools/Classes/*.{h,m}"
+  s.source_files  = "CommonTools/Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 

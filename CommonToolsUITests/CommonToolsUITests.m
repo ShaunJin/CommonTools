@@ -1,6 +1,6 @@
 //
-//  CommoToolsUITests.m
-//  CommoToolsUITests
+//  CommonToolsUITests.m
+//  CommonToolsUITests
 //
 //  Created by ShaJin on 2017/11/1.
 //  Copyright © 2017年 ShaJin. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CommoToolsUITests : XCTestCase
+@interface CommonToolsUITests : XCTestCase
 
 @end
 
-@implementation CommoToolsUITests
+@implementation CommonToolsUITests
 
 - (void)setUp {
     [super setUp];
