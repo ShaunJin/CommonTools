@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECA66F151FA873600024D9F9"
-               BuildableName = "ToolsDemo.app"
-               BlueprintName = "ToolsDemo"
-               ReferencedContainer = "container:ToolsDemo.xcodeproj">
+               BlueprintIdentifier = "EC57F0D31FA9D34100BA7F0A"
+               BuildableName = "CommoTools.app"
+               BlueprintName = "CommoTools"
+               ReferencedContainer = "container:CommoTools.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECA66F2E1FA873600024D9F9"
-               BuildableName = "ToolsDemoTests.xctest"
-               BlueprintName = "ToolsDemoTests"
-               ReferencedContainer = "container:ToolsDemo.xcodeproj">
+               BlueprintIdentifier = "EC57F0EC1FA9D34100BA7F0A"
+               BuildableName = "CommoToolsTests.xctest"
+               BlueprintName = "CommoToolsTests"
+               ReferencedContainer = "container:CommoTools.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ECA66F391FA873600024D9F9"
-               BuildableName = "ToolsDemoUITests.xctest"
-               BlueprintName = "ToolsDemoUITests"
-               ReferencedContainer = "container:ToolsDemo.xcodeproj">
+               BlueprintIdentifier = "EC57F0F71FA9D34100BA7F0A"
+               BuildableName = "CommoToolsUITests.xctest"
+               BlueprintName = "CommoToolsUITests"
+               ReferencedContainer = "container:CommoTools.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECA66F151FA873600024D9F9"
-            BuildableName = "ToolsDemo.app"
-            BlueprintName = "ToolsDemo"
-            ReferencedContainer = "container:ToolsDemo.xcodeproj">
+            BlueprintIdentifier = "EC57F0D31FA9D34100BA7F0A"
+            BuildableName = "CommoTools.app"
+            BlueprintName = "CommoTools"
+            ReferencedContainer = "container:CommoTools.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECA66F151FA873600024D9F9"
-            BuildableName = "ToolsDemo.app"
-            BlueprintName = "ToolsDemo"
-            ReferencedContainer = "container:ToolsDemo.xcodeproj">
+            BlueprintIdentifier = "EC57F0D31FA9D34100BA7F0A"
+            BuildableName = "CommoTools.app"
+            BlueprintName = "CommoTools"
+            ReferencedContainer = "container:CommoTools.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "ECA66F151FA873600024D9F9"
-            BuildableName = "ToolsDemo.app"
-            BlueprintName = "ToolsDemo"
-            ReferencedContainer = "container:ToolsDemo.xcodeproj">
+            BlueprintIdentifier = "EC57F0D31FA9D34100BA7F0A"
+            BuildableName = "CommoTools.app"
+            BlueprintName = "CommoTools"
+            ReferencedContainer = "container:CommoTools.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

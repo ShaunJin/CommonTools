@@ -1,13 +1,13 @@
 //
 //  ViewController.m
-//  ToolsDemo
+//  CommoTools
 //
-//  Created by ShaJin on 2017/10/31.
+//  Created by ShaJin on 2017/11/1.
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "CommonTools.h"
+
 @interface ViewController ()
 
 @end
@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    self.view.ce
-//    self.view.radius = 5;
 }
 
 

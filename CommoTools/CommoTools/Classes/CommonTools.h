@@ -6,6 +6,8 @@
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
 
+
+#if TARGET_OS_IPHONE
 #import <Foundation/Foundation.h>
 #import "CTDefines.h"
 #import "CTMethods.h"
@@ -13,3 +15,4 @@
 #import "NSDictionary+CTDictionary.h"
 #import "NSArray+CTArray.h"
 #import "NSString+CTString.h"
+#endif
