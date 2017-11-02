@@ -1,14 +1,14 @@
 //
-//  UIView+CTView.h
-//  CommmonTools
+//  UIView+SJView.h
+//  SJCommonTools
 //
-//  Created by ShaJin on 2017/10/31.
+//  Created by ShaJin on 2017/11/2.
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
 // UIView的扩展
 #import <UIKit/UIKit.h>
 
-@interface UIView (CTView)
+@interface UIView (SJView)
 /** 控件的X坐标 */
 @property(nonatomic,assign)CGFloat frameX;
 /** 控件的Y坐标 */

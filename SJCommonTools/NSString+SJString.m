@@ -1,14 +1,13 @@
 //
-//  NSString+CTString.m
-//  CommmonTools
+//  NSString+SJString.m
+//  SJCommonTools
 //
-//  Created by ShaJin on 2017/10/31.
+//  Created by ShaJin on 2017/11/2.
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
 // 字符串的扩展
-#import "NSString+CTString.h"
-#import "CTDefines.h"
-@implementation NSString (CTString)
+#import "NSString+SJString.h"
+@implementation NSString (SJString)
 /** 字典或数组转换成字符串 */
 +(NSString *)stringWithJsonData:(id)data{
     NSError *error;
@@ -26,7 +25,7 @@
         jsonString = [[NSString alloc]initWithData:jsonData encoding:NSUTF8StringEncoding];
         
     }
-
+    
     NSMutableString *mutStr = [NSMutableString stringWithString:jsonString];
     
     NSRange range = {0,jsonString.length};

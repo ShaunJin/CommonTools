@@ -1,14 +1,14 @@
 //
-//  NSString+CTString.h
-//  CommmonTools
+//  NSString+SJString.h
+//  SJCommonTools
 //
-//  Created by ShaJin on 2017/10/31.
+//  Created by ShaJin on 2017/11/2.
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
 // 字符串的扩展
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface NSString (CTString)
+@interface NSString (SJString)
 /** 字典或数组转换成字符串 */
 +(NSString *)stringWithJsonData:(id)data;
 /** 计算单行文字宽度 */

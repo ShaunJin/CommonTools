@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "CommonTools"
-  s.version      = "0.0.3"
+  s.name         = "SJCommonTools"
+  s.version      = "0.0.5"
   s.summary      = "Common tools for iOS develop."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.homepage     = "https://github.com/ShaunJin/CommonTools"
+  s.homepage     = "https://github.com/ShaunJin/SJCommonTools.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -76,7 +76,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ShaunJin/CommonTools.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ShaunJin/SJCommonTools.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,8 @@ Pod::Spec.new do |s|
 # s.source_files  = "CommonTools/*"
   # s.source_files  = "CommonTools/CommonTools/*"
   # s.exclude_files = "CommonTools/CommonTools"
-  s.source_files  = "CommonTools/Classes/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "SJCommonTools/*.{h,m}"
+  # s.exclude_files = "SJCommonTools/Exclude"
   # s.public_header_files = "Classes/**/*.h"
 
 

@@ -1,14 +1,14 @@
 //
-//  CTMethods.h
-//  CommmonTools
+//  SJMethods.h
+//  SJCommonTools
 //
-//  Created by ShaJin on 2017/10/31.
+//  Created by ShaJin on 2017/11/2.
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
 // 通用方法
 #import <Foundation/Foundation.h>
 @class UIColor;
-@interface CTMethods : NSObject
+@interface SJMethods : NSObject
 /*
  ---------------------------
  丨        title           丨

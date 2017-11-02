@@ -1,14 +1,14 @@
 //
-//  UIView+CTView.m
-//  CommmonTools
+//  UIView+SJView.m
+//  SJCommonTools
 //
-//  Created by ShaJin on 2017/10/31.
+//  Created by ShaJin on 2017/11/2.
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
 // UIView的扩展
-#import "UIView+CTView.h"
+#import "UIView+SJView.h"
 
-@implementation UIView (CTView)
+@implementation UIView (SJView)
 #pragma Setter
 -(void)setFrameX:(CGFloat)frameX{
     self.frame = CGRectMake(frameX, self.frameY, self.frameW, self.frameH);

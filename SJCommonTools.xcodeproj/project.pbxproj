@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6AFE0B1FAACF5300016468 /* SJMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE0A1FAACF5300016468 /* SJMethods.m */; };
+		EC6AFE0F1FAACFBF00016468 /* NSArray+SJArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE0E1FAACFBF00016468 /* NSArray+SJArray.m */; };
+		EC6AFE121FAACFED00016468 /* NSDictionary+SJDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE111FAACFED00016468 /* NSDictionary+SJDictionary.m */; };
+		EC6AFE151FAAD00500016468 /* NSString+SJString.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE141FAAD00500016468 /* NSString+SJString.m */; };
+		EC6AFE181FAAD01900016468 /* UIView+SJView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE171FAAD01900016468 /* UIView+SJView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC6AFDFA1FAACE1000016468 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC6AFDFC1FAACE1000016468 /* libSJCommonTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSJCommonTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6AFE081FAACEF200016468 /* SJDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJDefines.h; sourceTree = "<group>"; };
+		EC6AFE091FAACF5300016468 /* SJMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMethods.h; sourceTree = "<group>"; };
+		EC6AFE0A1FAACF5300016468 /* SJMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMethods.m; sourceTree = "<group>"; };
+		EC6AFE0C1FAACF9D00016468 /* SJCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJCommonTools.h; sourceTree = "<group>"; };
+		EC6AFE0D1FAACFBF00016468 /* NSArray+SJArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SJArray.h"; sourceTree = "<group>"; };
+		EC6AFE0E1FAACFBF00016468 /* NSArray+SJArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SJArray.m"; sourceTree = "<group>"; };
+		EC6AFE101FAACFED00016468 /* NSDictionary+SJDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SJDictionary.h"; sourceTree = "<group>"; };
+		EC6AFE111FAACFED00016468 /* NSDictionary+SJDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SJDictionary.m"; sourceTree = "<group>"; };
+		EC6AFE131FAAD00500016468 /* NSString+SJString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SJString.h"; sourceTree = "<group>"; };
+		EC6AFE141FAAD00500016468 /* NSString+SJString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SJString.m"; sourceTree = "<group>"; };
+		EC6AFE161FAAD01900016468 /* UIView+SJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SJView.h"; sourceTree = "<group>"; };
+		EC6AFE171FAAD01900016468 /* UIView+SJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SJView.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6AFDF91FAACE1000016468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6AFDF31FAACE1000016468 = {
+			isa = PBXGroup;
+			children = (
+				EC6AFDFE1FAACE1000016468 /* SJCommonTools */,
+				EC6AFDFD1FAACE1000016468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6AFDFD1FAACE1000016468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6AFDFC1FAACE1000016468 /* libSJCommonTools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6AFDFE1FAACE1000016468 /* SJCommonTools */ = {
+			isa = PBXGroup;
+			children = (
+				EC6AFE0C1FAACF9D00016468 /* SJCommonTools.h */,
+				EC6AFE081FAACEF200016468 /* SJDefines.h */,
+				EC6AFE091FAACF5300016468 /* SJMethods.h */,
+				EC6AFE0A1FAACF5300016468 /* SJMethods.m */,
+				EC6AFE0D1FAACFBF00016468 /* NSArray+SJArray.h */,
+				EC6AFE0E1FAACFBF00016468 /* NSArray+SJArray.m */,
+				EC6AFE101FAACFED00016468 /* NSDictionary+SJDictionary.h */,
+				EC6AFE111FAACFED00016468 /* NSDictionary+SJDictionary.m */,
+				EC6AFE131FAAD00500016468 /* NSString+SJString.h */,
+				EC6AFE141FAAD00500016468 /* NSString+SJString.m */,
+				EC6AFE161FAAD01900016468 /* UIView+SJView.h */,
+				EC6AFE171FAAD01900016468 /* UIView+SJView.m */,
+			);
+			path = SJCommonTools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6AFDFB1FAACE1000016468 /* SJCommonTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6AFE051FAACE1000016468 /* Build configuration list for PBXNativeTarget "SJCommonTools" */;
+			buildPhases = (
+				EC6AFDF81FAACE1000016468 /* Sources */,
+				EC6AFDF91FAACE1000016468 /* Frameworks */,
+				EC6AFDFA1FAACE1000016468 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJCommonTools;
+			productName = SJCommonTools;
+			productReference = EC6AFDFC1FAACE1000016468 /* libSJCommonTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6AFDF41FAACE1000016468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ShaJin;
+				TargetAttributes = {
+					EC6AFDFB1FAACE1000016468 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SYU66478L4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC6AFDF71FAACE1000016468 /* Build configuration list for PBXProject "SJCommonTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC6AFDF31FAACE1000016468;
+			productRefGroup = EC6AFDFD1FAACE1000016468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6AFDFB1FAACE1000016468 /* SJCommonTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6AFDF81FAACE1000016468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6AFE181FAAD01900016468 /* UIView+SJView.m in Sources */,
+				EC6AFE0B1FAACF5300016468 /* SJMethods.m in Sources */,
+				EC6AFE151FAAD00500016468 /* NSString+SJString.m in Sources */,
+				EC6AFE0F1FAACFBF00016468 /* NSArray+SJArray.m in Sources */,
+				EC6AFE121FAACFED00016468 /* NSDictionary+SJDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC6AFE031FAACE1000016468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6AFE041FAACE1000016468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6AFE061FAACE1000016468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SYU66478L4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC6AFE071FAACE1000016468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = SYU66478L4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6AFDF71FAACE1000016468 /* Build configuration list for PBXProject "SJCommonTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6AFE031FAACE1000016468 /* Debug */,
+				EC6AFE041FAACE1000016468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6AFE051FAACE1000016468 /* Build configuration list for PBXNativeTarget "SJCommonTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6AFE061FAACE1000016468 /* Debug */,
+				EC6AFE071FAACE1000016468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6AFDF41FAACE1000016468 /* Project object */;
+}

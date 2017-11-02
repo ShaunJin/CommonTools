@@ -1,13 +1,13 @@
 //
-//  CTDefines.h
-//  CommmonTools
+//  SJDefines.h
+//  SJCommonTools
 //
-//  Created by ShaJin on 2017/10/31.
+//  Created by ShaJin on 2017/11/2.
 //  Copyright © 2017年 ShaJin. All rights reserved.
 //
-// 宏定义
-#ifndef CTDefines
-#define CTDefines
+
+#ifndef SJDefines_h
+#define SJDefines_h
 
 /** 判断字符串是否为空 */
 #define IsEmptyString(str) (([str isKindOfClass:[NSNull class]] || str == nil || [str length]<=0)? YES : NO )
@@ -32,5 +32,4 @@
 /** 16进制数值颜色 */ // 调用 ：HEXRGB(0XFFFF)
 #define HEXRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
-
-#endif
+#endif /* SJDefines_h */
