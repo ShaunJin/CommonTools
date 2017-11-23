@@ -12,6 +12,7 @@
 		EC6AFE121FAACFED00016468 /* NSDictionary+SJDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE111FAACFED00016468 /* NSDictionary+SJDictionary.m */; };
 		EC6AFE151FAAD00500016468 /* NSString+SJString.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE141FAAD00500016468 /* NSString+SJString.m */; };
 		EC6AFE181FAAD01900016468 /* UIView+SJView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6AFE171FAAD01900016468 /* UIView+SJView.m */; };
+		ECCDA1131FAC149500B40B3B /* UIButton+SJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCDA1121FAC149500B40B3B /* UIButton+SJButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		EC6AFE141FAAD00500016468 /* NSString+SJString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SJString.m"; sourceTree = "<group>"; };
 		EC6AFE161FAAD01900016468 /* UIView+SJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SJView.h"; sourceTree = "<group>"; };
 		EC6AFE171FAAD01900016468 /* UIView+SJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SJView.m"; sourceTree = "<group>"; };
+		ECCDA1111FAC149500B40B3B /* UIButton+SJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SJButton.h"; sourceTree = "<group>"; };
+		ECCDA1121FAC149500B40B3B /* UIButton+SJButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SJButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				EC6AFE141FAAD00500016468 /* NSString+SJString.m */,
 				EC6AFE161FAAD01900016468 /* UIView+SJView.h */,
 				EC6AFE171FAAD01900016468 /* UIView+SJView.m */,
+				ECCDA1111FAC149500B40B3B /* UIButton+SJButton.h */,
+				ECCDA1121FAC149500B40B3B /* UIButton+SJButton.m */,
 			);
 			path = SJCommonTools;
 			sourceTree = "<group>";
@@ -114,7 +119,7 @@
 		EC6AFDF41FAACE1000016468 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = ShaJin;
 				TargetAttributes = {
 					EC6AFDFB1FAACE1000016468 = {
@@ -148,6 +153,7 @@
 			files = (
 				EC6AFE181FAAD01900016468 /* UIView+SJView.m in Sources */,
 				EC6AFE0B1FAACF5300016468 /* SJMethods.m in Sources */,
+				ECCDA1131FAC149500B40B3B /* UIButton+SJButton.m in Sources */,
 				EC6AFE151FAAD00500016468 /* NSString+SJString.m in Sources */,
 				EC6AFE0F1FAACFBF00016468 /* NSArray+SJArray.m in Sources */,
 				EC6AFE121FAACFED00016468 /* NSDictionary+SJDictionary.m in Sources */,
@@ -166,7 +172,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -174,7 +182,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -213,7 +225,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -221,7 +235,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -284,6 +302,7 @@
 				EC6AFE071FAACE1000016468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

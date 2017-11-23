@@ -23,4 +23,9 @@
 
 /** 通用弹窗 无颜色 */
 +(void)tipsWithTitle:(NSString *)title message:(NSString *)message leftTitle:(NSString *)leftTitle rightTitle:(NSString *)rightTitle leleftBlock:(void (^)())leftBlock rightBlock:(void (^)())rightBlock;
+
+/** 在主线程执行的任务 */
++(void)actionWithMainQueue:(void (^)())action;
+/* 在多线程执行的任务 */
++(void)actionWithGlobalQueue:(void(^)())action;
 @end

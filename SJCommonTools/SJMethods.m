@@ -50,4 +50,16 @@
 +(void)tipsWithTitle:(NSString *)title message:(NSString *)message leftTitle:(NSString *)leftTitle rightTitle:(NSString *)rightTitle leleftBlock:(void (^)())leftBlock rightBlock:(void (^)())rightBlock{
     [self tipsWithTitle:title message:message leftTitle:leftTitle rightTitle:rightTitle buttonColor:nil leftBlock:leftBlock rightBlock:rightBlock];
 }
+/** 在主线程执行的任务 */
++(void)actionWithMainQueue:(void (^)())action{
+    dispatch_async(dispatch_get_main_queue(), ^{
+        action();
+    });
+}
+/** 在多线程执行的任务 */
++(void)actionWithGlobalQueue:(void(^)())action{
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        action();
+    });
+}
 @end

@@ -19,17 +19,28 @@
 #define LoadImage(imageName) [UIImage imageNamed:imageName]
 
 /** 判断系统版本是否大于某（含）版本 */
-#define IsLaterVersion(version) (([[[UIDevice currentDevice] systemVersion] floatValue] >=version)? (YES):(NO))
+#define IsLaterVersion(version) (([[[UIDevice currentDevice] systemVersion] floatValue] >= version)? (YES):(NO))
 
 /** 屏幕宽高*/
-#define KWidth [UIScreen mainScreen].bounds.size.width
-#define KHeight [UIScreen mainScreen].bounds.size.height
-
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
+/** 字号 */
+#define kFontSize(size) [UIFont systemFontOfSize:size]
 /** 颜色 */
 #define Color(R, G, B) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
 #define ColorA(r, g, b, a) ([UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a])
 
-/** 16进制数值颜色 */ // 调用 ：HEXRGB(0XFFFF)
+/** 16进制数值颜色 */ // 调用 ：HEXRGB(0XFFFFFF)
 #define HEXRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+/** 随机颜色 */
+#define RandColor [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0]
+
+/** keyWindow */
+#define kMainWindow  [UIApplication sharedApplication].keyWindow
+/** 根视图 */
+#define kRootViewController [UIApplication sharedApplication].keyWindow.rootViewController
+/** WeakSelf */
+#define WeakSelf(self) __weak typeof(self) weakSelf = self;
+
 
 #endif /* SJDefines_h */

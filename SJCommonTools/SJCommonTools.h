@@ -15,4 +15,5 @@
 #import "NSDictionary+SJDictionary.h"
 #import "NSArray+SJArray.h"
 #import "NSString+SJString.h"
+#import "UIButton+SJButton.h"
 #endif /* SJCommonTools_h */
