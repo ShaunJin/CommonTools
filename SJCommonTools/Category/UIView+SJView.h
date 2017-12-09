@@ -10,13 +10,13 @@
 
 @interface UIView (SJView)
 /** 控件的X坐标 */
-@property(nonatomic,assign)CGFloat frameX;
+@property(nonatomic,assign)CGFloat x;
 /** 控件的Y坐标 */
-@property(nonatomic,assign)CGFloat frameY;
+@property(nonatomic,assign)CGFloat y;
 /** 控件的宽度 */
-@property(nonatomic,assign)CGFloat frameW;
+@property(nonatomic,assign)CGFloat w;
 /** 控件的高度 */
-@property(nonatomic,assign)CGFloat frameH;
+@property(nonatomic,assign)CGFloat h;
 /** 中心点X坐标 */
 @property(nonatomic,assign)CGFloat centerX;
 /** 中心点Y坐标 */

@@ -26,6 +26,7 @@
 #define kHeight [UIScreen mainScreen].bounds.size.height
 /** 字号 */
 #define kFontSize(size) [UIFont systemFontOfSize:size]
+
 /** 颜色 */
 #define Color(R, G, B) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:1.0]
 #define ColorA(r, g, b, a) ([UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a])
@@ -39,8 +40,9 @@
 #define kMainWindow  [UIApplication sharedApplication].keyWindow
 /** 根视图 */
 #define kRootViewController [UIApplication sharedApplication].keyWindow.rootViewController
+
 /** WeakSelf */
-#define WeakSelf(self) __weak typeof(self) weakSelf = self;
+#define WeakSelf __weak typeof(self) weakSelf = self;
 
 
 #endif /* SJDefines_h */
